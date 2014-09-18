@@ -1,0 +1,12 @@
+# Package files
+node_modules
+.vendor
+
+# Do not need to put compiled files into Source Control.
+css
+js
+index.html
+!_html/index.html
+
+# Global files, should never be added
+.sass-cache

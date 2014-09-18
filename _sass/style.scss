@@ -1,0 +1,21 @@
+// Just a sample Sass file, you can do what you want here.
+
+main, header, footer {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body {
+  font-size: 16px;
+  font-family: Helvetica, Arial, "Nimbus Sans L", sans-serif;
+}
+
+footer {
+
+  a {
+    display: inline-block;
+    padding: 1em;
+    // Just a little sample so we can see how the auto-prefixer works.
+    background-image: linear-gradient(#ccc, #666);
+  }
+}
